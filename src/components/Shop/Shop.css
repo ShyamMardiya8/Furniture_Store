@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0ex;
+}
+.shopicon{
+    width: 100%;
+    height: auto;
+}
+.shopmainc{
+    text-align: center;
+    padding: 100px 0px;
+    align-items: center;
+}
+.shopname{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.shopbox{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.productc{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.hei{
+    height: auto;
+    background-color: #F4F5F7;
+    width: 23%;
+    margin-top: 50px;
+}
+.pna{
+    font-size: 1.2rem;
+    padding: 5px 10px;
+}
+.lig{
+    opacity: 0.5;
+    font-size: 1rem;
+    padding: 5px 10px;
+}
+.pri{
+    font-size: 1.1rem;
+    padding: 5px 10px;
+}
+.btp{
+    text-align: center;
+    font-size: 2rem;
+}
+.customersupport{
+    margin-top: 50px;
+    width: 100% ;
+    background-color: #f3ebd9;
+}
+.customerinner{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+.boxcust{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.trpohy{
+    height: 60px;
+    width: 60px;
+}
+.high{
+    padding: 0px 10px;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.material{
+    padding: 10px 10px;
+    opacity: 0.5;
+    font-size: 1rem;
+}
+@media screen  and (max-width:1155px){
+    .productc{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+        gap: 15px;
+    }
+    .hei{
+        width: auto;
+   }
+   .customersupport{
+    display: none;
+   }
+   .Emailbox{
+    display: none;
+   }
+   .footercont{
+    display: flex;
+    justify-content: space-between;
+   }
+}

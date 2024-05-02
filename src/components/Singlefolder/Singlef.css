@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.upperline{
+    background-color: #fcf1db;
+    width: 100%;
+}
+.innerline{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+.homename{
+    padding: 0px 10px;
+}
+.photosmain{
+    border-bottom: 1px solid rgb(227, 224, 224);
+}
+.photoinner{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.photoleft{
+    margin-top: 10px;
+    width: 46%;
+}
+.orangephoto{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.photoright{
+    margin-top: 10px;
+    width: 46%;
+}
+.productname{
+    font-size: 1.6rem;
+}
+.productprice{
+    font-size: 1.1rem;
+    opacity: 0.5;
+}
+.descprodut{
+    padding: 10px 0px;
+    font-size: .7rem;
+    border-bottom: 1px solid rgb(239, 235, 235);
+}
+.deatils{
+    font-size: .9rem;   
+    opacity: 0.5;
+}
+.addcart{
+    margin: 30px 0px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    transition: all 0.5s linear;
+}
+.addcart:hover{
+    background-color: #fcf1db;
+    color: black;
+}
+.descripation{
+    width: 100%;
+}
+.decinner{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.descnames{
+    text-align: center;
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+}
+.decname{
+    opacity: 0.5;
+    padding: 10px 0px;
+}
